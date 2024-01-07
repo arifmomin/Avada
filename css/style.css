@@ -1,0 +1,802 @@
+/* =================== font link start ================== */
+/* ------------------ font link end ----------------- */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&display=swap');
+/* =================menu part start=================== */
+*{
+    padding: 0%;
+    margin: 0%;
+    outline: 0px;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+img{
+    width: 100%;
+    max-width: 100%;
+    vertical-align: middle;
+}
+.container{
+    width: 1320px;
+   margin: 0% auto;
+}
+/* ------------------css part end -------------------- */
+/* =================menu part start=================== */
+#menu{
+    width: 100%;
+    padding-top: 25px;
+    position: absolute;
+}
+.menu_col .menu_logo_img{
+    width: 225px;
+}
+.menu_col{
+    display: flex;
+    justify-content: space-between;
+}
+.menu_text ul{
+    display: flex;
+    gap: 55px;
+    line-height: 67px;
+}
+.menu_text ul li a{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #F9ECEC;
+   transition: all linear .3s;
+}
+.menu_text ul li a:hover{
+    
+    color: #FF9600;
+}
+.menu_bar_button a{
+    width: 200px;
+    height: 65px;
+    background: #FF9600;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 65px;
+    border-radius: 10px;
+    transition: all linear .3s;
+    border: 1px solid #FF9600;
+}
+.menu_bar_button a:hover{
+    background: transparent;
+    color: #000000;
+    transform: scale(1.1);
+}
+/* ------------------menu part end -------------------- */
+/* =================banner part start=================== */
+#banner{
+    background: url('../images/bannerbg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 152px;
+    padding-bottom: 212px;
+}
+.banner_col .banner_heading h1{
+    width: 819px;
+    font-size: 72px;
+    font-weight: 700;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0% auto;
+    padding-top: 152px;
+}
+.banner_button_one a{
+    width: 231px;
+    height: 62px;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #FFFFFF;
+    background: #FF9600;
+    text-align: center;
+    line-height: 62px;
+    border-radius: 10px;
+    border: 1px solid #FF9600;
+    transition: all linear .3s;
+}
+.banner_button_one a:hover{
+    background: #FFFFFF;
+    color: #000;
+}
+.banner_button_two a{
+    width: 185px;
+    height: 62px;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #FFFFFF;
+    background: #FF9600;
+    text-align: center;
+    line-height: 62px;
+    border-radius: 10px;
+    border: 1px solid #FF9600;
+    transition: all linear .3s;
+}
+.banner_button_two a:hover{
+    background: #FFFFFF;
+    color: #000;
+}
+.banner_button{
+    margin-top: 48px;
+    margin-bottom: 212px;
+    display: flex;
+    justify-content: center;
+    gap: 57px;
+}
+/* ------------------banner part end -------------------- */
+/* =================adventures part start=================== */
+#adventures{
+    padding-top: 105px;
+    padding-bottom: 69px;
+    background: #E5E5E5;
+}
+.adventures_col_text h2{
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Yellowtail', cursive;
+    color: #49C4F5;
+    margin-bottom: 4px;
+}
+.adventures_col_text h3{
+    width: 595px;
+    font-size: 54px;
+    font-weight: 700;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #222222;
+    margin-bottom: 68px;
+    position: relative;
+}
+.adventures_col_text{
+    position: relative;
+}
+.adventures_col_text::after{
+    content: '';
+    width: 83px;
+    height: 2px;
+    background: #000000;
+    position: absolute;
+    bottom: -12%;
+    left: 0%;
+}
+.adventures_pera p{
+    width: 595px;
+    font-size: 18;
+    font-weight: 400;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #000000;
+}
+.adventures_pera ul li {
+    margin-top: 33px;
+}
+.adventures_pera ul li p span{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: #C4C4C4;
+    border-radius: 50px;
+}
+.adventures_pera ul li p{
+    font-size: 18;
+    font-weight: 400;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #000000;
+    margin-top: 21px;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+.adventures_button a{
+    margin-top: 48px;
+    width: 200px;
+    height: 62px;
+    background: #FF9600;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 62px;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'IBM Plex Sans', sans-serif;
+    border-radius: 10px;
+    border: 1px solid #FF9600;
+    transition: all linear .3s;
+}
+.adventures_button a:hover{
+    background: transparent;
+    color: #000;
+}
+.adventures_row{
+    display: flex;
+    justify-content: space-between;
+}
+.Adventures_col_img{
+    display: flex;
+    align-items: center;
+    gap: 51px;
+}
+.adventures_img img{
+    width: 300px;
+}
+.adventures_img_one img{
+    width: 295px;
+}
+.Adventures_col_img .adventures_img{
+    position:relative;
+    overflow:hidden;
+}
+.Adventures_col_img .adventures_img img{
+    width: 100%;
+    height:100%;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+}
+.adventures_counter{
+    display: flex;
+    gap: 24px;
+}
+.adventures_col_counter{
+    margin-top: 100px;
+    width: 312px;
+    background: #FFF4E5;
+}
+
+.adventures_col_counter h4{
+    font-size: 80px;
+    font-weight: 700;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #000000;
+    text-align: center;
+}
+.adventures_col_counter p{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #000000;
+    text-align: center;
+    padding-bottom: 23px;
+}
+.adventures_counter .adventures_col_counter:nth-child(2){
+    background: #E7FDE9;
+}
+.adventures_counter .adventures_col_counter:nth-child(3){
+    background: #F2F2FD;
+}
+.adventures_counter .adventures_col_counter:nth-child(4){
+    background: #FFF4E5;
+}
+/* ----------------adventures part end --------------- */
+/* ===============Extreme part start================= */
+#extreme{
+    background: #0C3543;
+    padding-top: 120px;
+}
+.extreme_row_text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.extreme_row_text .adventures_col_text h2{
+    color: #FF960B;
+}
+.extreme_row_text .adventures_col_text h3{
+    color: #ffff;
+}
+.extreme_row_text .adventures_col_text::after{
+    background: #C4C4C4;
+    bottom: 50px;
+}
+.extreme_row_text .extreme_col_text p{
+    width: 622px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #ffff;
+}
+.sprts_row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+.sprts_row .sports_col{
+    width: 424px;
+    background: #0F4152;
+    border-radius: 15px;
+    padding-bottom: 45px;
+}
+.sports_data h4{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    color: #ffff;
+    margin-top: 37px;
+    margin-bottom: 10px;
+    transition: all linear .3s;
+    text-align: center;
+}
+.sprts_row .sports_col:hover h4{
+    color: #FF9600;
+}
+.sports_data p{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    color: #ffff;
+    margin-top: 15px;
+    text-align: center;
+}
+.sports_bg_img{
+    padding-top: 117px;
+    padding-bottom: 42px;
+}
+.sports_bg_img .sports_heading_text h5{
+    font-size: 160px;
+    font-weight: 400;
+    font-family: 'Arizonia', cursive;
+    text-align: center;
+    color: #FFFFFF;
+}
+.sports_heading_img{
+    position: relative;
+}
+.sports_heading_img img{
+    width: 440px;
+    position: absolute;
+    bottom: -113px;
+    left: 47px;
+}
+/* -----------------Extreme part end ------------------- */
+/* =============== sports_video start================ */
+#team{
+   width: 100%;
+   height: 980px;
+   background: #FF960B;
+   padding-top: 20px;
+}
+.team_logo{
+    width: 103px;
+    margin: 0 auto;
+}
+.team_heading h2{
+    font-size: 54px;
+    font-weight: 700;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #ffff;
+    text-align: center;
+    margin-top: 28px;
+    margin-bottom: 50px;
+}
+.team_heading h3{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #ffff;
+    text-align: center;
+    margin-bottom: 56px;
+}
+.team_button{
+    display: flex;
+    justify-content: center ;
+    gap: 28px;
+    margin-bottom: 96px;
+}
+.team_button .team_button_one{
+    width: 200px;
+    height: 65px;
+    background:#0C3543;
+    border: 1px solid #0C3543;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 65px;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #ffff;
+    transition: all linear .3s;
+}
+.team_button_one:hover{
+    background: transparent;
+    color: #000;
+    box-shadow: 0 0 5px #fff,
+    0 0 25px #fff, 0 0 50px #fff;
+}
+.team_button .team_button_two{
+    width: 240px;
+    height: 65px;
+    background:#0C3543;
+    border: 1px solid #0C3543;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 65px;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #ffff;
+    transition: all linear .3s;
+}
+.team_button_two:hover{
+    background: transparent;
+    color: #000;
+    box-shadow: 0 0 5px #fff,
+    0 0 25px #fff, 0 0 50px #fff;
+}
+.cards{
+   position: relative;
+   width: 100%;
+   padding-left: 30px;
+}
+.cards_img img{ 
+    width: 400px;
+    height: 447px;   
+}
+.cards_text{
+    position: absolute;
+    padding: 221px 39px 11px 24px;
+    top: 0%;
+}
+
+.cards_text h3{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #fff;
+}
+.cards_text h4{
+    font-size: 28px;
+    font-weight: 700;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #fff;
+    margin-top: 24px;
+    position: relative;
+}
+.cards_text h4::after{
+    content: '';
+    position: absolute;
+    width: 260px;
+    height: 2px;
+    background: #C4C4C4;
+    top: 73px;
+    left: 0px;
+}
+.cards_text p{    
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #A0A0A0;
+    margin-top: 67px;
+}
+.cards ul {
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+    gap: 12px;
+    padding-top: 25px;
+   
+}
+.cards ul button{
+    font-size: 0;
+    width: 15px;
+    height: 15px;
+    background: #000;
+    border: 1px solid #000;
+    border-radius: 50px;
+    
+}
+.cards ul .slick-active button{
+    background: #ffffff;
+}
+.cards .prr{
+    width: 50px;
+    height: 50px;
+    background: rgba(102, 96, 96, 0.5);
+    border-radius: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    position: absolute;
+    top: 70%;
+    left: -5%;
+    transform: translateY(-50%);
+    z-index: 999;
+    visibility: hidden;
+    opacity: 0;
+    transition: all linear .5s;
+}
+.cards:hover .prr{
+    background: #ECF3FF;
+    top: 50%;
+    visibility: visible;
+    opacity: 1;
+}
+.cards .nrr{
+    width: 50px;
+    height: 50px;
+    background: rgba(102, 96, 96, 0.5);
+    border-radius: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    position: absolute;
+    top: 70%;
+    right: -5%;
+    transform: translateY(-50%);
+    z-index: 999;
+    transition: all linear.5s;
+    visibility: hidden;
+    opacity: 0;
+}
+.cards:hover .nrr{
+    background: #ECF3FF;
+    top: 50%;
+    visibility: visible;
+    opacity: 1;
+}
+/* ---------------sports video part end ---------------- */
+/* =================logo part start=================== */
+
+#logo{
+    padding-top: 260px;
+    padding-bottom: 230px;
+}
+#logo .logo_heading h2{
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Yellowtail', cursive;
+    color: #14B9F1;
+    text-align: center;
+    margin-bottom: 29px;
+}
+#logo .logo_heading h3{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #000000;
+    text-align: center;
+    position: relative;
+    margin-bottom: 81px;
+}
+#logo .logo_heading h3::after{
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 2px;
+    background: #A0A0A0;
+    top: 70px;
+    left: 611px;
+}
+.logo_row .logo_col{
+    width: 275px;
+}
+.logo_row{
+    display: flex;
+    justify-content: space-between;
+}
+.logo_col .logo_img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: #C4C4C4;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #000000;
+    line-height: 150px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0% auto;
+}
+.logo_col .logo_text h4{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #000000;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+.logo_col .logo_text p{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #000000;
+    text-align: center;
+    
+}
+/* ---------------logo part end ---------------- */
+/* ==============sports news part start============== */
+#sports_news{ 
+    padding-bottom: 35px;
+}
+.sports_news_head .adventures_col_text h2{
+    color: #FF9600;
+}
+.sports_news_head .adventures_col_text h3{
+    color: #000000;
+}
+.sports_news_head .extreme_col_text p{
+    color: #000000;
+}
+.sports_news_row{
+    display: flex;
+    gap: 24px;
+}
+.sports_news_row .sports_news_col{
+    width: 424px;
+}
+.sports_news_col .sports_news_text h4{
+    width: 315px;
+    font-size: 28px;
+    font-weight: 700;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #000000;
+    text-align: center;
+    margin: 0% auto;
+    margin-top: 38px;
+    margin-bottom: 32px;
+}
+.sports_news_col .sports_news_text p{
+    width: 312px;
+    margin: 0% auto;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 86px;
+}
+.sports_news_col{
+    position: relative;
+}
+.sports_news_col::after{
+    content: '';
+    position: absolute;
+    width: 424px;
+    height: 1px;
+    background: #000000;
+    top: 550px;
+    left: 0px;
+}
+.sports_news_col .sports_news_text h5{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #14B9F1;
+    text-align: center;
+    transition: all linear .3s;
+}
+.sports_news_col:hover .sports_news_text h5{
+    color: #FF9600;
+}
+.sports_logo_row{
+    display: flex;
+    gap: 67px;
+    padding-top: 265px;
+}
+.sports_logo_row .sports_logo_img{
+    width: 160px;
+}
+/* --------------sports news part end ---------------- */
+/* =================club part start=================== */
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #0C3543;
+} 
+.footer_row{
+    display: flex; 
+    gap: 44px;
+}
+.footer_img img{
+    width: 800px;
+    height: 798px;
+}
+.footer_col .footer_col_img {
+    width: 252px;
+    height: 75px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.footer_button{
+    display: flex;
+    gap: 33px;
+}
+.footer_button button{
+    width: 130px;
+    height: 60px;
+    background: #FF9600;
+    border-radius: 5px;
+    border: none;
+    transition: all linear .3s;
+}
+.footer_button button:hover{
+    background: transparent;
+    box-shadow: 0 0 5px #FFFFFF, 0 0 25px #FFFFFF;
+}
+.footer_button button a{
+    padding: 0px 28px;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #FFFFFF;
+    
+}
+.footer_button .button_text p{
+    width: 373px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #FFFFFF;
+}
+.footer_button{
+    position: relative;
+}
+button::after{
+    content: '';
+    position: absolute;
+    width: 536px;
+    height: 2px;
+    background: #FFFFFF;
+    bottom: -52px;
+    left: 0%;
+}
+.contact_row{
+    display: flex;
+    margin-top: 127px;
+    gap: 30px;
+}
+.contact_row .contact_col h2{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #FFFFFF;
+}
+.contact_col a{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #FFFFFF;
+}
+.contact_col p{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #FFFFFF;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.contact_col p a{
+    margin-left: 1px;
+}
+.last_part h4{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #FFFFFF;
+}
+.last_part h4{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #FFFFFF;
+    margin-top: 62px;
+}
+/* ---------------club part end ---------------- */
+
